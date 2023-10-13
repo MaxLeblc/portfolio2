@@ -92,10 +92,13 @@ $bg-color: rgb(172, 255, 227);
     }
 
     &>p {
+        display: flex;
+        justify-content: center;
         font-family: "Archivo", sans-serif;
         font-weight: 800;
         font-size: 64px;
         letter-spacing: 2rem;
+        margin-left: 2rem;
         color: $black-color;
         animation: bounce linear;
         animation-timeline: view();
@@ -339,12 +342,18 @@ $bg-color: rgb(172, 255, 227);
 
 @media all and (min-width: 320px) and (max-width: 864px) {
     .container {
+        animation: none;
+
         &>p:nth-child(2) {
             font-size: 38px;
         }
 
         &>span:nth-last-child(2) {
             width: 28rem;
+        }
+
+        &>p{
+            animation: none;
         }
 
         .containerView {

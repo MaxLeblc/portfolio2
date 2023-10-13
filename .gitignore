@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+src/assets/maxime_leblanc_cv.pdf
+src/assets/prods_color
+src/assets/stack_color
