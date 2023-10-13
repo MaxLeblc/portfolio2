@@ -48,11 +48,11 @@ export default function About() {
                 <p>Je suis actuellement à la recherche d'un poste alors n'hésitez pas à me contacter pour que nous puissions échanger ensemble !</p>
             </div>
             <div className={styles.links}>
-                <img src="../../public/links_arrow.svg" alt="links_arrow" />
+                <img src="/links_arrow.svg" alt="links_arrow" />
                 <a href="https://github.com/MaxLeblc" target="_blank" title="Mon GitHub"><FaGithub /></a>
                 <a href="https://www.linkedin.com/in/maxime-leblanc-dev/" target="_blank" title="Mon LinkedIn"><FaLinkedinIn /></a>
                 <a href="mailto:maxime.leb@gmail.com" target="_blank" title="Me contacter par mail"><GrMail /></a>
-                <a href="./src/assets/maxime_leblanc_cv.pdf" download target="_blank" title="Mon CV"><FaPortrait /></a>
+                <a href="/CV/maxime_leblanc_cv.pdf" download target="_blank" title="Mon CV"><FaPortrait /></a>
             </div>
         </div>
     )

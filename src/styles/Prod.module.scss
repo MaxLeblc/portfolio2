@@ -119,7 +119,7 @@ $bg-color: rgb(172, 255, 227);
             width: 15rem;
             height: 15rem;
             border-radius: 0.5rem;
-            background-image: url("../../public/stack/css.png");
+            background-image: url("/stack/css.png");
             background-size: cover;
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
             border: $black-color solid 2px;
@@ -166,10 +166,10 @@ $bg-color: rgb(172, 255, 227);
 
         .view1 {
             animation: bubble 8s ease-in-out infinite;
-            background-image: url("../../public/prods/meme.png");
+            background-image: url("/prods/meme.png");
 
             &:hover {
-                background-image: url("../../public/prods/meme2.png");
+                background-image: url("/prods/meme2.png");
                 transition: 1s;
                 background-color: $red-color;
                 z-index: 100;
@@ -183,10 +183,10 @@ $bg-color: rgb(172, 255, 227);
 
         .view2 {
             animation: bubble 10s ease-in-out infinite;
-            background-image: url("../../public/prods/popcorn.png");
+            background-image: url("/prods/popcorn.png");
 
             &:hover {
-                background-image: url("../../public/prods/popcorn2.png");
+                background-image: url("/prods/popcorn2.png");
                 transition: 1s;
                 background-color: $red-color;
                 z-index: 100;
@@ -200,10 +200,10 @@ $bg-color: rgb(172, 255, 227);
 
         .view3 {
             animation: bubble 12s ease-in-out infinite;
-            background-image: url("../../public/prods/note.png");
+            background-image: url("/prods/note.png");
 
             &:hover {
-                background-image: url("../../public/prods/note2.png");
+                background-image: url("/prods/note2.png");
                 transition: 1s;
                 background-color: $red-color;
                 z-index: 100;
@@ -217,10 +217,10 @@ $bg-color: rgb(172, 255, 227);
 
         .view4 {
             animation: bubble 7s ease-in-out infinite;
-            background-image: url("../../public/prods/cauldron.png");
+            background-image: url("/prods/cauldron.png");
 
             &:hover {
-                background-image: url("../../public/prods/cauldron2.png");
+                background-image: url("/prods/cauldron2.png");
                 transition: 1s;
                 background-color: $red-color;
                 z-index: 100;
@@ -234,10 +234,10 @@ $bg-color: rgb(172, 255, 227);
 
         .view5 {
             animation: bubble 9s ease-in-out infinite;
-            background-image: url("../../public/prods/touittaire.png");
+            background-image: url("/prods/touittaire.png");
 
             &:hover {
-                background-image: url("../../public/prods/touittaire2.png");
+                background-image: url("/prods/touittaire2.png");
                 transition: 1s;
                 background-color: $red-color;
                 z-index: 100;
@@ -251,10 +251,10 @@ $bg-color: rgb(172, 255, 227);
 
         .view6 {
             animation: bubble 11s ease-in-out infinite;
-            background-image: url("../../public/prods/buddy.png");
+            background-image: url("/prods/buddy.png");
 
             &:hover {
-                background-image: url("../../public/prods/buddy2.png");
+                background-image: url("/prods/buddy2.png");
                 transition: 1s;
                 background-color: $red-color;
                 z-index: 100;
