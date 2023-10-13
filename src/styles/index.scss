@@ -1,0 +1,28 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(172, 255, 227);
+  background-image: url("../assets/trame.svg");
+}
+
+p {
+  margin: 0;
+}
+
+@media all and (max-width: 320px) {
+  #root {
+    display: none;
+  }
+}
