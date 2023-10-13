@@ -5,7 +5,7 @@ export default function Stack() {
         { name: "HTML", image: "/stack/html.png", link: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
         { name: "CSS", image: "/stack/css.png", link: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
         { name: "Javascript", image: "/stack/js.png", link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
-        { name: "TypeScript", image: "/stack/TypeScript.png", link: "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html" },
+        { name: "TypeScript", image: "/stack/typeScript.png", link: "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html" },
         { name: "React", image: "/stack/react.png", link: "https://reactjs.org/docs/getting-started.html" },
         { name: "React Native", image: "/stack/reactNative.png", link: "https://reactnative.dev/docs/getting-started" },
         // { name: "Redux", image: "/stack/redux.png", link: "https://redux.js.org/introduction/getting-started" },

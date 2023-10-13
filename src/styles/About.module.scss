@@ -184,6 +184,12 @@ $bg-color: rgb(172, 255, 227);
             }
         }
 
+        .slidersB {
+            &>.sliderRight {
+                margin-top: -2rem;
+            }
+        }
+
         .about {
             font-size: 16px;
             font-weight: 700;

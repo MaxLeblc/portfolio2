@@ -23,6 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-/public/CV/maxime_leblanc_cv.pdf
 /public/prods_color
 /public/stack_color
