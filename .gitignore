@@ -23,6 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-src/assets/maxime_leblanc_cv.pdf
-src/assets/prods_color
-src/assets/stack_color
+/src/assets/maxime_leblanc_cv.pdf
+/public/prods_color
+/public/stack_color
