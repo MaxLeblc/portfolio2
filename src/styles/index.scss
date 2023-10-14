@@ -10,6 +10,10 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
