@@ -7,6 +7,7 @@ export default function ToTop() {
 
     const toggleVisible = () => {
         document.documentElement.scrollTop > 500 ? setVisible(true) : setVisible(false)
+        window.innerWidth < 864 && setVisible(false)
     }
 
     const scrollToTop = () => {
