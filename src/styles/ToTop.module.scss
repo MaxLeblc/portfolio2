@@ -12,7 +12,7 @@ $bg-color: rgb(172, 255, 227);
     color: $bg-color;
     border-radius: 2rem;
     box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px $black-color, inset 0px -3px 1px 1px rgba(77, 100, 96, 0.5);
-    right: 5%;
+    left: 95%;
     bottom: 4rem;
     cursor: pointer;
     z-index: 100;
@@ -27,7 +27,6 @@ $bg-color: rgb(172, 255, 227);
 @media all and (min-width: 320px) and (max-width: 864px) {
     .up {
         scale: 1.5;
-        right: 0;
         left: 85%;
         transform: translateX(-50%);
     }
