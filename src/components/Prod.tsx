@@ -19,6 +19,7 @@ export default function Prod() {
     const onMouseUp = () => {
         setEyeType(!eyeType)
         setTimeout(() => {
+            alert("JETTE un oeil !")
             setEyeType(false)
         }, 500)
     }
