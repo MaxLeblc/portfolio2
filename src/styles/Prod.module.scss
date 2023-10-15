@@ -280,9 +280,10 @@ $mobile-color: rgb(255, 249, 238);
             white-space: nowrap;
             color: $black-color;
             gap: 1rem;
-            // margin: 4rem 0;
+            margin: 4rem 0;
 
             .eye {
+                width: 2rem;
                 scale: 2;
                 margin-left: 2rem;
 
@@ -328,6 +329,8 @@ $mobile-color: rgb(255, 249, 238);
 
         .containerEye {
             p {
+                flex-direction: column;
+                align-items: center;
                 font-size: 16px;
                 letter-spacing: 0.1rem;
                 flex-direction: column;
@@ -388,13 +391,15 @@ $mobile-color: rgb(255, 249, 238);
 
         .containerEye {
             p {
+                flex-direction: column;
+                align-items: center;
                 font-family: "Archivo Black", sans-serif;
                 font-size: 14px;
                 letter-spacing: 0.1rem;
                 white-space: wrap;
                 line-height: 1.5rem;
                 flex-direction: column;
-                margin-top: 3rem;
+                // margin-top: 3rem;
                 // padding: 0 1rem;
 
                 &>:nth-child(1) {
