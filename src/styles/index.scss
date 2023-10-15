@@ -24,5 +24,6 @@ p {
 @media all and (max-width: 320px) {
   #root {
     display: none;
+    overflow-y: hidden;
   }
 }
