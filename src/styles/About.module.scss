@@ -178,6 +178,7 @@ $bg-color: rgb(172, 255, 227);
         .intro {
             font-size: 16px;
             font-weight: 700;
+            padding-top: 6rem;
 
             &>h1 {
                 font-size: 34px;
@@ -186,20 +187,20 @@ $bg-color: rgb(172, 255, 227);
         }
 
         .slidersA {
-            display: none;
+            // display: none;
         }
 
         .slidersB {
-            // &>.sliderRight {
-            //     margin-top: -2rem;
-            // }
-            display: none;
+            &>.sliderRight {
+                margin-top: -2rem;
+            }
+            // display: none;
         }
 
         .about {
             font-size: 16px;
             font-weight: 700;
-            padding-top: 2rem;
+            // padding-top: 2rem;
         }
 
         .links {

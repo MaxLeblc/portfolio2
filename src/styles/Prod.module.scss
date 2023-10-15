@@ -279,7 +279,7 @@ $bg-color: rgb(172, 255, 227);
             white-space: nowrap;
             color: $black-color;
             gap: 1rem;
-            margin: 4rem 0;
+            // margin: 4rem 0;
 
             .eye {
                 scale: 2;
@@ -343,6 +343,7 @@ $bg-color: rgb(172, 255, 227);
 @media all and (min-width: 320px) and (max-width: 864px) {
     .container {
         animation: none;
+        margin-top: 0;
 
         &>p:nth-child(2) {
             font-size: 38px;
@@ -378,6 +379,8 @@ $bg-color: rgb(172, 255, 227);
                 white-space: wrap;
                 line-height: 1.5rem;
                 flex-direction: column;
+                margin-top: 3rem;
+                padding: 0 6rem;
 
                 &>:nth-child(1) {
                     display: none;
