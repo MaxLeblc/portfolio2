@@ -26,6 +26,7 @@ $bg-color: rgb(172, 255, 227);
     width: 60rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
     .intro {
@@ -184,15 +185,21 @@ $bg-color: rgb(172, 255, 227);
             }
         }
 
+        .slidersA {
+            display: none;
+        }
+
         .slidersB {
-            &>.sliderRight {
-                margin-top: -2rem;
-            }
+            // &>.sliderRight {
+            //     margin-top: -2rem;
+            // }
+            display: none;
         }
 
         .about {
             font-size: 16px;
             font-weight: 700;
+            padding-top: 2rem;
         }
 
         .links {
