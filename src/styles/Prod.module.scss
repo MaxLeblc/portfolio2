@@ -315,6 +315,11 @@ $bg-color: rgb(172, 255, 227);
 
 @media all and (min-width: 864px) and (max-width: 1080px) {
     .container {
+
+        &>span:nth-child(3) {
+            width: 100%;
+        }
+
         .containerView {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -351,6 +356,10 @@ $bg-color: rgb(172, 255, 227);
 
         &>span:nth-last-child(2) {
             width: 28rem;
+        }
+
+        &>span:nth-child(3) {
+            width: 100%;
         }
 
         &>p {
