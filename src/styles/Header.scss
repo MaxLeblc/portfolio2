@@ -1,6 +1,7 @@
 $black-color: #212121;
 $red-color: #f15454;
 $bg-color: rgb(172, 255, 227);
+$mobile-color: rgb(255, 249, 238);
 
 .container {
     display: flex;
@@ -57,6 +58,7 @@ $bg-color: rgb(172, 255, 227);
         border: 0px;
         border-top: $black-color solid 2px;
         border-bottom: $black-color solid 2px;
+        background-color: $mobile-color;
 
         &>a {
             padding: 0 1rem;

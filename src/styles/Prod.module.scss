@@ -1,6 +1,7 @@
 $black-color: #212121;
 $red-color: #f15454;
 $bg-color: rgb(172, 255, 227);
+$mobile-color: rgb(255, 249, 238);
 
 @mixin flexMid {
     display: flex;
@@ -377,7 +378,12 @@ $bg-color: rgb(172, 255, 227);
             .view5,
             .view6 {
                 margin: 1rem;
+
+                .description {
+                    background-color: $mobile-color;
+                }
             }
+
         }
 
         .containerEye {

@@ -1,6 +1,7 @@
 $black-color: #212121;
 $red-color: #f15454;
 $bg-color: rgb(172, 255, 227);
+$mobile-color: rgb(255, 249, 238);
 
 @mixin flexMid {
     display: flex;
@@ -169,6 +170,7 @@ $bg-color: rgb(172, 255, 227);
             grid-template-columns: repeat(2, 1fr);
             animation: none;
             position: unset;
+            background-color: $mobile-color;
         }
 
         .card {
