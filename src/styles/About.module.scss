@@ -187,14 +187,14 @@ $bg-color: rgb(172, 255, 227);
         }
 
         .slidersA {
-            // display: none;
+            display: none;
         }
 
         .slidersB {
             &>.sliderRight {
                 margin-top: -2rem;
             }
-            // display: none;
+            display: none;
         }
 
         .about {
